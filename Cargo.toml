@@ -1,0 +1,11 @@
+[package]
+name = "simple-monitor"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+native-windows-gui = "1.0.12"
+winapi = { version = "0.3.9", features = ["memoryapi", "sysinfoapi"] }
+
+
